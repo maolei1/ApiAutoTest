@@ -5,7 +5,6 @@
 import pytest
 from ZongHe.caw import DataRead
 import sys,os
-sys.path.append(DataRead.get_project_path())
 from ZongHe.caw.BaseRequests import BaseRequests
 
 def get_project_path():
