@@ -21,7 +21,7 @@ def get_project_path():
     path = os.path.dirname(path)
     return path + "\\"
 
-print(get_project_path())
+# print(get_project_path())
 sys.path.append(get_project_path())
 # 从环境文件中读取环境信息，整个过程读一次即可
 @pytest.fixture(scope='session')
